@@ -5,11 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>...</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <!-- navigation  bar -->
     <nav class="navbar">
+      <div class = "nav-elements">
+        <img class = "logo" src = "images/logo.png"/>
+        <div><input type="text" placeholder="Search"></div>  
+        <div class = "actions">
+          <button><img src = "images/icons/tile011-2.png"/></button>
+          <button><img src = "images/icons/tile011-9.png"/></button>
+          <button><img src = "images/icons/tile011-8.png"/></button>
+          <button><img src = "images/icons/tile011-10.png"/></button>
+          <div><img class = "a-pi" src = "https://cataas.com/cat?width=64&height=64" /></div>
+        </div>
+      </div>
     </nav>
     
     <!-- main content -->
@@ -17,17 +29,48 @@
 
       <!-- header section (profile image, description etc.) -->
       <section class="container profile-header-section">
-        <h2>Pusheen</h2>
-        <p>
-          The official account of Pusheen the cat. <br />
-          Shop new and exclusive Pusheen merchandise online at
-          <a href="">@ThePusheenShop</a>! <br />
-          <a href="">pusheen.com/instagram</a>
-        </p>
+        <div class = "pi">
+          <img class = "profile-image" src = "https://cataas.com/cat?width=64&height=64"/>
+        </div>
+        <div class = "profile">
+          <div class = "profile-actions">
+            <h1 style = "display: inline-block">pusheen</h1>
+            <button class = "follow">Follow</button>
+            <button class = "more">...</button>
+          </div>
+          <div class = "profile-data">
+            <p><strong>2,461</strong> posts</p>
+            <p><strong>2.1m</strong> followers</p>
+            <p><strong>125</strong> following</p>
+          </div>
+          <p>
+            <strong>Pusheen</strong><br>
+            The official account of Pusheen the cat. <br />
+            Shop new and exclusive Pusheen merchandise online at
+            <a href="">@ThePusheenShop</a>! <br />
+            <a href="">pusheen.com/instagram</a>
+          </p>
+        </div>
       </section>
 
       <!-- stories -->
       <section class="container stories-section">
+        <div>
+          <img src = "http://placekitten.com/g/100/100">
+          <p>LOREM</p>
+        </div>
+        <div>
+          <img src = "http://placekitten.com/g/80/80">
+          <p>IUPSM</p>
+        </div>
+        <div>
+          <img src = "http://placekitten.com/g/120/120">
+          <p>WALLPAPER</p>
+        </div>
+        <div>
+          <img src = "http://placekitten.com/g/180/180">
+          <p>RANDOM</p>
+        </div>
       </section>
       
       <!-- images grid with tabs -->
@@ -35,7 +78,18 @@
         <div class="content-menu-tabs">
         </div>
         <div class="photo-grid-container">
-          <img src="https://picsum.photos/300/300?v=0" alt="photo" />
+          <img src="images/photos/10.jpg" alt="photo" />
+          <img src="images/photos/11.jpg" alt="photo" />
+          <img src="images/photos/12.jpg" alt="photo" />
+          <img src="images/photos/15.jpg" alt="photo" />
+          <img src="images/photos/16.jpg" alt="photo" />
+          <img src="images/photos/19.jpg" alt="photo" />
+          <img src="images/photos/12.jpg" alt="photo" />
+          <img src="images/photos/22.jpg" alt="photo" />
+          <img src="images/photos/24.jpg" alt="photo" />
+          <img src="images/photos/25.jpg" alt="photo" />
+          <img src="images/photos/26.jpg" alt="photo" />
+          <img src="images/photos/27.jpg" alt="photo" />
         </div>
       </section>
     </main>
